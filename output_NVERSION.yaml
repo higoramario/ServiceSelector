@@ -1,0 +1,46 @@
+-  1: 
+   - !model.Service
+      rel: 0.98
+      time: 100
+   - !model.Service
+      rel: 0.99
+      time: 200
+   - !model.Service
+      rel: 0.99
+      time: 300
+   - !model.Service
+      rel: 0.99
+      time: 400
+   2: 
+   - !model.Service
+      rel: 0.97
+      time: 150
+   - !model.Service
+      rel: 0.99
+      time: 200
+   3: 
+   - !model.Service
+      rel: 0.9
+      time: 187
+   - !model.Service
+      rel: 0.99
+      time: 200
+   - !model.Service
+      rel: 0.99
+      time: 300
+   4: 
+   - !model.Service
+      rel: 0.9
+      time: 187
+   - !model.Service
+      rel: 0.99
+      time: 100
+   - !model.Service
+      rel: 0.99
+      time: 300
+   - !model.Service
+      rel: 0.99
+      time: 400
+   - !model.Service
+      rel: 0.99
+      time: 500

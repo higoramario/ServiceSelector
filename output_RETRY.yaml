@@ -1,0 +1,69 @@
+-  1: 
+   - &1 !model.Service
+      rel: 0.98
+      time: 100
+      tries: 3
+   2: 
+   - &2 !model.Service
+      rel: 0.97
+      time: 150
+      tries: 1
+   3: 
+   - &3 !model.Service
+      rel: 0.99
+      time: 200
+      tries: 2
+   4: 
+   - &4 !model.Service
+      rel: 0.99
+      time: 100
+      tries: 1
+-  1: 
+   - *1
+   2: 
+   - *2
+   3: 
+   - *3
+   4: 
+   - &5 !model.Service
+      rel: 0.99
+      time: 300
+      tries: 1
+-  1: 
+   - *1
+   2: 
+   - &6 !model.Service
+      rel: 0.99
+      time: 200
+      tries: 2
+   3: 
+   - *3
+   4: 
+   - *4
+-  1: 
+   - *1
+   2: 
+   - *6
+   3: 
+   - *3
+   4: 
+   - *5
+-  1: 
+   - &7 !model.Service
+      rel: 0.99
+      time: 200
+      tries: 3
+   2: 
+   - *2
+   3: 
+   - *3
+   4: 
+   - *4
+-  1: 
+   - *7
+   2: 
+   - *2
+   3: 
+   - *3
+   4: 
+   - *5
