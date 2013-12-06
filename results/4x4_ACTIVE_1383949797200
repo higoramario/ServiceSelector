@@ -1,0 +1,33 @@
+ACTIVE
+Response time: 50
+Reliability: 0.9999
+Size: 4x4
+Solutions: 0
+Configurations: 50625
+Time (ns): 1374817207
+
+Composition
+
+Level 1
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95
+
+Level 2
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95
+
+Level 3
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95
+
+Level 4
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95

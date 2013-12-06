@@ -1,0 +1,24 @@
+-  1: 
+   - &1 !model.Service
+      rel: 0.98
+      time: 100
+      tries: 3
+   2: 
+   - &2 !model.Service
+      rel: 0.97
+      time: 150
+      tries: 3
+   3: 
+   - !model.Service
+      rel: 0.9
+      time: 187
+      tries: 3
+-  1: 
+   - *1
+   2: 
+   - *2
+   3: 
+   - !model.Service
+      rel: 0.99
+      time: 200
+      tries: 3

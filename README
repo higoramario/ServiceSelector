@@ -1,0 +1,26 @@
+FTTServiceSelector (FSS)
+===============
+
+A mechanism to select services for compositions. FTTServiceSelector generates 
+all possible combinations between services to compositions to different 
+Fault-Tolerance Techniques. 
+The selection criteria is based on QoS constraint values and uses.
+
+
+Instructions:
+
+To run FSS, put the yaml files in the folder "inputs". 
+The file with the available services must contain the roles and services with their 
+respective response time and reliability values.
+The another file must contain the expected values for response time and reliability of the composition.
+Choose the name of these files in CompositionManager class (line 67). 
+Choose the FTT strategy in CompositionManager class (lines 69-72).
+
+FSS generates two files:
+- In the folder "solutions" FSS generates the solution file with all compositions that keep the QoS constraint values.
+- In the folder "results" FSS generates a summary of the execution, including the time spent, number of combinations and solutions.
+
+We kept the input files and the result files used in experiments as examples to use FSS and to generate new yaml files. 
+We just kept 4 solution files due to the size of these files. Using FSS for roles and/or replicas with large sizes could generate large files. 
+
+Contact: hamario@ime.usp.br

@@ -1,0 +1,27 @@
+ACTIVE
+Response time: 1500
+Reliability: 0.95
+Size: 3x4
+Solutions: 2743
+Configurations: 3375
+Time (ns): 795559518
+
+Composition
+
+Level 1
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95
+
+Level 2
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95
+
+Level 3
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+Service 4 - time: 250, rel: 0.95

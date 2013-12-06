@@ -1,0 +1,36 @@
+RETRY
+Response time: 1500
+Reliability: 0.95
+Size: 3x7
+Solutions: 75
+Configurations: 343
+Time (ns): 191241123
+
+Composition
+
+Level 1
+Service 1 - time: 100, rel: 0.98, tries: 3
+Service 2 - time: 200, rel: 0.99, tries: 3
+Service 3 - time: 300, rel: 0.99, tries: 3
+Service 4 - time: 250, rel: 0.95, tries: 3
+Service 5 - time: 150, rel: 0.93, tries: 3
+Service 6 - time: 400, rel: 0.96, tries: 3
+Service 7 - time: 80, rel: 0.94, tries: 3
+
+Level 2
+Service 1 - time: 100, rel: 0.98, tries: 3
+Service 2 - time: 200, rel: 0.99, tries: 3
+Service 3 - time: 300, rel: 0.99, tries: 3
+Service 4 - time: 250, rel: 0.95, tries: 3
+Service 5 - time: 150, rel: 0.93, tries: 3
+Service 6 - time: 400, rel: 0.96, tries: 3
+Service 7 - time: 80, rel: 0.94, tries: 3
+
+Level 3
+Service 1 - time: 100, rel: 0.98, tries: 3
+Service 2 - time: 200, rel: 0.99, tries: 3
+Service 3 - time: 300, rel: 0.99, tries: 3
+Service 4 - time: 250, rel: 0.95, tries: 3
+Service 5 - time: 150, rel: 0.93, tries: 3
+Service 6 - time: 400, rel: 0.96, tries: 3
+Service 7 - time: 80, rel: 0.94, tries: 3

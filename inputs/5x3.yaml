@@ -1,0 +1,60 @@
+# Stock Exchange 
+#1. Get actual quotations
+#2. Search best offers
+#3. Get lesser fees
+#4. Run orders
+#5. Transfer money
+#6. Inform custodian agency.
+
+1:
+ - time: 100
+   rel: 0.98
+   tries: 3
+ - time: 200
+   rel: 0.99
+   tries: 3
+ - time: 300
+   rel: 0.99
+   tries: 3
+2:
+ - time: 150
+   rel: 0.97
+   tries: 3
+ - time: 200
+   rel: 0.99
+   tries: 3
+ - time: 300
+   rel: 0.99
+   tries: 3
+3:
+ - time: 187
+   rel: 0.9
+   tries: 3
+ - time: 200
+   rel: 0.99
+   tries: 3
+ - time: 300
+   rel: 0.99
+   tries: 3
+4:
+ - time: 100
+   rel: 0.98
+   tries: 3
+ - time: 200
+   rel: 0.99
+   tries: 3
+ - time: 300
+   rel: 0.99
+   tries: 3
+5:
+ - time: 100
+   rel: 0.98
+   tries: 3
+ - time: 200
+   rel: 0.99
+   tries: 3
+ - time: 300
+   rel: 0.99
+   tries: 3
+---
+

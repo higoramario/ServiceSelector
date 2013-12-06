@@ -1,0 +1,54 @@
+RBLOCK
+Response time: 50
+Reliability: 0.9999
+Size: 9x3
+Solutions: 0
+Configurations: 40353607
+Time (ns): 836357847781
+
+Composition
+
+Level 1
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 2
+Service 1 - time: 150, rel: 0.97
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 3
+Service 1 - time: 187, rel: 0.9
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 4
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 5
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 6
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 7
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 8
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
+
+Level 9
+Service 1 - time: 100, rel: 0.98
+Service 2 - time: 200, rel: 0.99
+Service 3 - time: 300, rel: 0.99
